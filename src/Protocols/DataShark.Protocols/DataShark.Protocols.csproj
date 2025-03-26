@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="3.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="dll\" />
+    <Folder Include="Keyency\" />
+    <Folder Include="Modbus\" />
+    <Folder Include="Siemens\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="config\log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

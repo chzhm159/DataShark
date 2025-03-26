@@ -1,0 +1,21 @@
+{
+  "Device": {
+    "Id": "f1:l1:st1:m1",
+    "Protocol": "ModBus-TCP",
+    "Ip": "127.0.0.1",
+    "Port": 8501,    
+    "Enabled": true,
+    "Remark": "xxx产线xxx工站xxx模块"
+  },
+  "Tags": [
+    {
+      "Id": "tag1",
+      "Addr": "40001",
+      "Count": 0,
+      "DataType": "bool",
+      "Operate": 1,
+      "Interval": 5000,
+      "Remark": "心跳保活"
+    }
+  ]
+}
